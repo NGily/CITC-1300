@@ -1,0 +1,88 @@
+body{
+    background-color: olive;
+}
+
+#container {
+    background-color: blanchedalmond;
+    width: 65%;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#banner{
+    width: 100%;
+}
+
+#col1{
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+#col2{
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.gecko_pic{
+    width: 50%;
+}
+
+.heading_style{
+    text-shadow: 2px 1px 2px #217c24;
+}
+
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
+
+nav{ 
+    text-align: center;
+    margin: 20px 0;
+    background-color: olive;
+    padding: 5px;
+    border-radius: 30px;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+ }
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: block;
+    color: blanchedalmond;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 30px;
+    width: 125px;
+    height: 25px;
+    line-height: 25px;
+}
+
+nav a:hover {
+background-color: blanchedalmond;
+color: black;
+}
+
+#two_col {
+    display: flex;
+}
+
+h1, h2, h3, footer{
+    text-align: center;
+}
