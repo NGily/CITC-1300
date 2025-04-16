@@ -1,0 +1,123 @@
+/* Global Styles */
+
+body { background-color: #9BA649;}
+
+img { 
+display: block;
+margin: 0 auto;
+width: 100%;
+
+}
+
+#container {
+    background-color: blanchedalmond;
+}
+
+/* Mobile Styles */
+
+@media (min-width: 320px){
+nav {
+    background-color: #261B12;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: #A67665;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+nav li a:hover {
+    background-color: #8C7E51;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #261B12;
+    text-shadow: 1px 1px 1px #000;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+}
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        margin: 5px;
+    }
+
+    .gecko_pic {
+        width: 50%;
+        border-radius: 30px;
+        box-shadow: 2px 2px 2px #261B12;
+    }
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+        border: 4px solid #D7C5B1;
+        border-radius: 20px;
+    }
+
+    nav {
+        padding: 5px;
+        margin: 0;
+    }
+
+    nav li a {
+        background-color: #A67665;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #multi_col {
+        display: flex;
+    }
+
+    .col {
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid #9BA649;
+
+    }
+}
